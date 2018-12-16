@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://file.myfontastic.com/NmLt2iunrrASJEWgMHtbJg/icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu</title>
+  </head>
+  <body>
+    <div class="o1">
+      <i class="icon-whatsapp"  id="ic2"></i>
+      <i class="icon-youtube-play"  id="ic3"></i>
+      <i class="icon-vk"  id="ic4"></i>
+      <i class="icon-instagram"  id="ic5"></i>
+      <i class="icon-paper-plane-o"  id="ic6"></i>
+  <input type="button" id="os1d" onclick="instagram();" name="" value="">
+  <input type="button" id="os2d" onclick="youtube();" name="" value="">
+  <input type="button" id="os3d" onclick="telegram();" name="" value="">
+  <input type="button" id="os1h" onclick="vk();" name="" value="">
+  <input type="button" id="os3h" onclick="whatsapp();"  name="" value="">
+<div id="os1t"></div>
+<div id="os2t"></div>
+<div id="os3t"></div>
+<div id="os1s"></div>
+<div id="os3s"></div>
+    </div>
+    <div class="o2">
+<input type="button" id="open" onclick="add();" name="" value="">
+<input type="button" id="close" onclick="odd();" name="" value="">
+<i class="icon-code-fork" id="ic1-o"></i>
+<i class="icon-code-fork" id="ic1-c"></i>
+    </div>
+  <script type="text/javascript">
+function add() {
+document.getElementById("open").style.zIndex = "0";
+document.getElementById("close").style.zIndex = "12";
+document.getElementById("ic2").style.left = "-500px";
+document.getElementById("ic3").style.left = "-500px";
+document.getElementById("ic4").style.left = "-500px";
+document.getElementById("ic5").style.left = "-500px";
+document.getElementById("ic6").style.left = "-500px";
+document.getElementById("os1t").style.left = "-500px";
+document.getElementById("os2t").style.left = "-500px";
+document.getElementById("os3t").style.left = "-500px";
+document.getElementById("os1s").style.left = "-500px";
+document.getElementById("os3s").style.left = "-500px";
+document.getElementById("os1d").style.left = "-500px";
+document.getElementById("os2d").style.left = "-500px";
+document.getElementById("os3d").style.left = "-500px";
+document.getElementById("os1h").style.left = "-500px";
+document.getElementById("os3h").style.left = "-500px";
+}
+function odd() {
+document.getElementById("ic2").style.left = "5px";
+document.getElementById("ic3").style.left = "105px";
+document.getElementById("ic4").style.left = "10px";
+document.getElementById("ic5").style.left = "90px";
+document.getElementById("ic6").style.left = "70px";
+document.getElementById("os1t").style.left = "-55px";
+document.getElementById("os2t").style.left = "-55px";
+document.getElementById("os3t").style.left = "-55px";
+document.getElementById("os1s").style.left = "-170px";
+document.getElementById("os3s").style.left = "-170px";
+document.getElementById("os1d").style.left = "-55px";
+document.getElementById("os2d").style.left = "-55px";
+document.getElementById("os3d").style.left = "-55px";
+document.getElementById("os1h").style.left = "-170px";
+document.getElementById("os3h").style.left = "-170px";
+document.getElementById("open").style.zIndex = "12";
+document.getElementById("close").style.zIndex = "0";
+}
+function youtube() {
+window.open("https://youtube.com");
+}
+function vk() {
+window.open("https://vk.com");
+}
+function whatsapp() {
+window.open("https://whatsapp.com");
+}
+function telegram() {
+window.open("https://telegram.com");
+}
+function instagram() {
+window.open("https://instagram.com");
+}
+  </script>
+ </body>
+</html>

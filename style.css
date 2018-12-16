@@ -1,0 +1,321 @@
+body{
+  z-index: 0;
+  background-color: #ffffff;
+}
+.o1{
+ -webkit-transition-duration: 2000ms;
+ position: fixed;
+ top: 200px;
+ left:-200px;
+ width: 400px;
+ height: 400px;
+ background-color: #ff994600;
+ border-radius: 400px;
+ display: block;
+ overflow: hidden;
+ z-index:1;
+}
+.o2{
+  -webkit-transition-duration: 2000ms;
+  position: fixed;
+  top: 325px;
+  left:-75px;
+  width: 150px;
+  height: 150px;
+  background-color: #ffffff;
+  border-radius: 400px;
+  z-index: 11;
+  display: block;
+  overflow: hidden;
+}
+#open{
+  position: fixed;
+  top: 325px;
+  left:-75px;
+  width: 150px;
+  height: 150px;
+  border-radius: 400px;
+  z-index: 16;
+  border: 0px;
+  background-color: #ffffff00;
+  outline: none;
+}
+#close{
+  position: fixed;
+  top: 325px;
+  left:-75px;
+  width: 150px;
+  height: 150px;
+  border-radius: 400px;
+  z-index: -1;
+  border: 0px;
+  background-color: #ffffff00;
+  outline: none;
+}
+#os1{
+  box-shadow: 3px 5px 100px;
+  -webkit-transition-duration: 2000ms;
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  top: 450px;
+  left: -55px;
+  width: 300px;
+  height: 200px;
+  transform: rotate(25deg);
+  background-color: #fda24700;
+  z-index: 10;
+  border: 0px;
+  outline: none;
+}
+#os2{
+  -webkit-transition-duration: 2000ms;
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  top: 250px;
+  left: -55px;
+  width: 300px;
+  height: 200px;
+  transform: rotate(25deg);
+  background-color: #ff994600;
+  z-index: 8;
+  border: 0px;
+  outline: none;
+}
+#os3{
+  -webkit-transition-duration: 2000ms;
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  left: -55px;
+  width: 250px;
+  height: 450px;
+  transform: rotate(65deg);
+  background-color: #fda24700;
+  z-index: 9;
+  border: 0px;
+  outline: none;
+  box-shadow: 3px 5px 100px;
+}
+#ic1-o{
+  -webkit-transition-duration: 2000ms;
+  position: fixed;
+  top: 370px;
+  left: 0px;
+  color: black;
+  z-index: 7;
+  font-size: 60px;
+}
+#ic1-c{
+  position: fixed;
+  top: 370px;
+  left: 0px;
+  color: black;
+  z-index: -1;
+  font-size: 60px;
+}
+#ic2{
+  -webkit-transition-duration: 2000ms;
+  position: fixed;
+  top: 225px;
+  left: 5px;
+  color: black;
+  z-index: 11;
+  font-size: 60px;
+}
+#ic3{
+  -webkit-transition-duration: 2000ms;
+  position: fixed;
+  top: 365px;
+  left: 105px;
+  color: black;
+  z-index: 11;
+  font-size: 60px;
+}
+#ic4{
+  -webkit-transition-duration: 2000ms;
+  position: fixed;
+  top: 530px;
+  left: 10px;
+  color: black;
+  z-index: 11;
+  font-size: 60px;
+}
+#ic5{
+  -webkit-transition-duration: 2000ms;
+  position: fixed;
+  top: 475px;
+  left: 90px;
+  color: black;
+  z-index: 4;
+  font-size: 60px;
+}
+#ic6{
+  -webkit-transition-duration: 2000ms;
+  position: fixed;
+  top: 265px;
+  left: 70px;
+  color: black;
+  z-index: 4;
+  font-size: 60px;
+}
+#os1t{
+  box-shadow: 3px 5px 100px;
+  -webkit-transition-duration: 2000ms;
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  top: 450px;
+  left: -55px;
+  width: 300px;
+  height: 200px;
+  transform: rotate(25deg);
+  background-color: #fda247;
+  z-index: 3;
+  border: 0px;
+  outline: none;
+}
+#os2t{
+    -webkit-transition-duration: 2000ms;
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  top: 250px;
+  left: -55px;
+  width: 300px;
+  height: 200px;
+  transform: rotate(25deg);
+  background-color: #ff9946;
+  z-index: 2;
+  border: 0px;
+  outline: none;
+}
+#os3t{
+  -webkit-transition-duration: 2000ms;
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  left: -55px;
+  width: 250px;
+  height: 450px;
+  transform: rotate(65deg);
+  background-color: #fda247;
+  z-index: 3;
+  border: 0px;
+  outline: none;
+      box-shadow: 3px 5px 100px;
+}
+#os1s{
+  box-shadow: 3px 5px 100px;
+  -webkit-transition-duration: 2000ms;
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  top: 450px;
+  left: -170px;
+  width: 300px;
+  height: 200px;
+  transform: rotate(61deg);
+  background-color: #ff9946;
+  z-index: 5;
+  border: 0px;
+  outline: none;
+}
+#os3s{
+  -webkit-transition-duration: 2000ms;
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  top: -11px;
+  left: -170px;
+  width: 250px;
+  height: 450px;
+  transform: rotate(25deg);
+  background-color: #ff9946;
+  z-index: 4;
+  border: 0px;
+  outline: none;
+  box-shadow: 3px 5px 100px;
+}
+#os1d{
+  box-shadow: 3px 5px 100px;
+  -webkit-transition-duration: 2000ms;
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  top: 450px;
+  left: -55px;
+  width: 300px;
+  height: 200px;
+  transform: rotate(25deg);
+  background-color: #fda24700;
+  z-index: 15;
+  border: 0px;
+  outline: none;
+}
+#os2d{
+  -webkit-transition-duration: 2000ms;
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  top: 250px;
+  left: -55px;
+  width: 300px;
+  height: 200px;
+  transform: rotate(25deg);
+  background-color: #ff994600;
+  z-index: 13;
+  border: 0px;
+  outline: none;
+}
+#os3d{
+  -webkit-transition-duration: 2000ms;
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  left: -55px;
+  width: 250px;
+  height: 450px;
+  transform: rotate(65deg);
+  background-color: #fda24700;
+  z-index: 14;
+  border: 0px;
+  outline: none;
+  box-shadow: 3px 5px 100px;
+}
+#os1h{
+  box-shadow: 3px 5px 100px;
+  -webkit-transition-duration: 2000ms;
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  top: 450px;
+  left: -170px;
+  width: 300px;
+  height: 200px;
+  transform: rotate(61deg);
+  background-color: #ff994600;
+  z-index: 15;
+  border: 0px;
+  outline: none;
+}
+#os3h{
+  -webkit-transition-duration: 2000ms;
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  top: -11px;
+  left: -170px;
+  width: 250px;
+  height: 450px;
+  transform: rotate(25deg);
+  background-color: #ff994600;
+  z-index: 15;
+  border: 0px;
+  outline: none;
+  box-shadow: 3px 5px 100px;
+}
